@@ -1,0 +1,94 @@
+*{
+  font-family:Comfortaa,sans-serif;
+}
+body{
+  padding:0;
+  margin:0;
+}
+header{
+  background-color:#912614;
+  padding:10px;
+  position:fixed;
+  width:100%;
+  border:solid 2px #404445;
+}
+#navbar a{
+  text-decoration:none;
+  color:#fc98b0;
+  padding:10px;
+}
+#navbar a:hover{
+  text-decoration:none;
+  background-color:#404445;
+}
+
+#welcome-section{
+  padding:100px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:	#404445;
+  color:#cb2d22;
+}
+#projects{
+  padding:50px;
+  background-color:	#912614;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+#project-title{
+  background-color:	#912614;
+  color:#404445;
+  padding-top:100;
+  text-align:center;
+  margin:0;
+}
+
+.project-tile{
+  color:#cb2d22;
+  background-color:	#262829;
+  padding:20px;
+  padding-bottom:0;
+  border:solid 2px #404445;
+  font-weight:bold;
+}
+
+.project-tile a{
+  text-decoration:none;
+  color:#912614;
+  font-size:18;
+}
+
+.project-tile a:hover{
+  background-color:#912614;
+  padding:7px;
+  color:#090506;
+}
+
+.project-tile p{
+  text-align:justify;
+}
+
+#contact{
+  background-color:#404445;
+  padding:100px;
+  color:#cb2d22;
+}
+
+.social-icons{
+  display:flex;
+  justify-items:space-evenly;
+  align-items:center;
+}
+
+.social-icons a{
+  padding:20px;
+  text-decoration:none;
+  color:#cb2d22;
+}
+
+#contact h1{
+  border-bottom:solid 1px #090506;
+}
