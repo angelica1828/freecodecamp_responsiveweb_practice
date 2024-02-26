@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>ELK Stack</header>
+      <ul>
+      <li><a class='nav-link' href="#Introduction">Introduction</a></li>
+      <li><a class='nav-link'  href="#ElasticSearch">ElasticSearch</a></li>
+      <li><a class='nav-link'  href="#Logstash">Logstash</a></li>
+      <li><a class='nav-link'  href="#Kibana">Kibana</a></li>
+      <li><a class='nav-link'  href="#Conclusion">Conclusion</a></li>
+    </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>INTRODUCTION</header>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+        <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </section>
+      <section class="main-section" id="ElasticSearch">
+        <header>ELASTICSEARCH</header>
+        <p>Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.</p>
+        <p>Elasticsearch is a distributed, RESTful search and analytics engine capable of addressing a growing number of use cases. </p>
+        <p id="steps">STEPS</p>
+        <ol>
+          <li>Install and modify elasticsearch.yml file if needed</li>
+          <li>Start or restart service</li>
+        </ol>
+        <code>sudo apt-get elasticsearch</code>
+        <code>sudo systemctl restart elasticsearch</code>
+      </section>
+      <section class="main-section" id="Logstash">
+        <header>LOGSTASH</header>
+        <p>Logstash is an open-source data collection, parsing, and enrichment pipeline that helps you ingest data from various sources, transform it, and ship it to your preferred destination, such as Elasticsearch.</p>
+        <p>Logstash dynamically ingests, transforms, and ships your data regardless of format or complexity.</p>
+        <p id="steps">STEPS</p>
+        <ol>
+          <li>Install and create a configuration file to be stored in configs. This will specify how input and output is parsed</li>
+          <li>Start or restart service</li>
+        </ol>
+        <code>sudo apt-get logstash</code>
+        <code>sudo systemctl restart logstash</code>
+      </section>
+      <section class="main-section" id="Kibana">
+        <header>KIBANA</header>
+        <p>Kibana is a source-available data visualization dashboard software for Elasticsearch. </p>
+        <p>Kibana provides visualization capabilities on top of the content indexed on an Elasticsearch cluster.</p>
+        <p>Users can create bar, line and scatter plots, or pie charts and maps on top of large volumes of data. </p>
+        <p id="steps">STEPS</p>
+        <ol>
+          <li>Install and run</li>
+        </ol>
+        <code>sudo apt-get kibana</code>
+        <code>sudo systemctl start kibana</code>
+      </section>
+      <section class="main-section" id="Conclusion">
+        <header>CONCLUSION</header>
+        <p>The ELK Stack is a collection of three open-source projects: Elasticsearch, Logstash, and Kibana.Elasticsearch is a full-text search and analytics engine, while Logstash is a log aggregator that collects and processes data from multiple sources, converts, and ships it to various destinations, such as Elasticsearch. </p>
+        <p>It enables users to take data from any source, in any format, and search, analyze, and visualize it in real-time.</p>
+        <p>The ELK Stack was formerly known as the ELK Stack for the core products in the group, but has been rebranded as the Elastic Stack.</p>
+        <p>AWS offers various ingestion tools to support the ELK Stack</p>
+      </section>
+    </main>
+  </body>
+</html?=>
