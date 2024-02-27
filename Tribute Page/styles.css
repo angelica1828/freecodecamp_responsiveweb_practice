@@ -1,0 +1,39 @@
+body{
+  background:black;
+  color:white;
+  font-family:Orbitron,sans-serif;
+}
+h1, #img-caption{
+  text-align:center;
+  margin:20px;
+  border-bottom:solid 1px;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border:solid 4px;
+}
+#img-div{
+  padding: 10px;
+  margin: 0;
+}
+p{
+  font-family:Playfair,serif;
+  text-align:justify;
+  padding:10px 40px;
+}
+#img-caption{
+  margin:0;
+  text-align:center;
+}
+#tribute-link{
+  font-family:Playfair,serif;
+  color:white;
+  text-decoration:none;
+  display:flex;
+}
+#tribute-link p{
+  text-align:center;
+}
