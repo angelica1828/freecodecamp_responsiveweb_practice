@@ -1,0 +1,43 @@
+*{
+  font-family:Playfair,serif;
+}
+body{
+  background:#000505;
+  font-size:18px;
+}
+h1{
+  text-align:center;
+  padding:10px;
+  background-color:#3B3355;
+  color:#FEFCFD;
+}
+#description{
+  text-align:center;
+  margin-top:0;
+  font-size:20px;
+  color:#FEFCFD;
+}
+#survey-form{
+  display:flex;
+  background-color:#5D5D81;
+  padding:30px;
+  align-items:center;
+  flex-direction:column;
+  border:double 7px #BFCDE0;
+  color:#FEFCFD;
+}
+.name, .email, .number, .gender, .hobbies,.comments, .submit{
+  padding:15px;
+  margin-bottom:5px;
+  background-color:#3B3355;
+  width:100%;
+  text-align:center;
+}
+#submit{
+  padding:10px;
+  margin-bottom:5px;
+  background-color:#BFCDE0;
+  width:90%;
+  text-align:center;
+  font-size:20px;
+}
